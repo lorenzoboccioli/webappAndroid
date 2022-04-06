@@ -1,6 +1,7 @@
 if (window.innerWidth && window.innerWidth <= 600) {
     $(document).ready(function () {
-        var bloccoDaInserire = $('<div class="bottone' > <input id="ppp" type="button" value="Show" onClick="toggleMenu()"></input>);
+        $('#header ul').addClass('nascondi');
+        var bloccoDaInserire = $(' <div class="bottone" > <input id="ppp" type="button" value="Show" onClick="toggleMenu()"></div>');
         bloccoDaInserire.appendTo('#header');
     });
 
